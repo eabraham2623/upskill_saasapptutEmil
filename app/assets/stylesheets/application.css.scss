@@ -16,7 +16,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
  
-body, .navbar
+.navbar
 {
     // gradient provided by uiGradients.com
     background: #2980b9;  /* fallback for old browsers */
@@ -32,9 +32,25 @@ body, .navbar
     border: none;
 }
 
+
+.homecallout
+{
+     // gradient provided by uiGradients.com
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(#2c3e50), to(#2980b9));
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+    background: -moz-linear-gradient(to right, #2c3e50, #2980b9);
+    background: -o-linear-gradient(to right, #2c3e50, #2980b9);
+    background: linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: white;
+}
  
 h1, h2, h3
 {
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    
 }
