@@ -34,6 +34,9 @@ gem 'hirb', '0.7.3'
 # Use twitter bootstrap library, for frontend UI and layout
 gem 'bootstrap-sass', '3.3.7'
 
+# Use Devise for user authentication
+gem 'devise' , '4.2.0'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
