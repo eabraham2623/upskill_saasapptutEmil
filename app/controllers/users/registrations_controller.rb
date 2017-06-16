@@ -1,4 +1,6 @@
 class Users::RegistrationsController < Devise::RegistrationsController
+    # users signing up with pro account have/save with Stripe subscription
+    # otherwise you save normally
     before_action :select_plan, only: :new
     def create
         super do |resource|
